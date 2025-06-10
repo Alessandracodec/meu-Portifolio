@@ -303,7 +303,7 @@ function App() {
                     </div>
                     <div>
                       <p className="text-gray-300">Email</p>
-                      <p className="text-white font-semibold">alessandradev2025.com</p>
+                      <p className="text-white font-semibold">alessandradev2025@gmail.com</p>
                     </div>
                   </div>
                   <div className="flex items-center space-x-4">

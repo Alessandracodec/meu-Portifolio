@@ -131,7 +131,7 @@ function App() {
           </div>
           
           <p className="text-xl md:text-2xl mb-12 max-w-3xl mx-auto leading-relaxed text-gray-300">
-            Transformamos suas ideias em experiências digitais extraordinárias com 
+            Transformamos suas ideias em experiências digitais com 
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400 font-semibold"> front-end de alta performance</span>
           </p>
           
@@ -172,7 +172,7 @@ function App() {
               </span>
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              Especializados em desenvolvimento front-end moderno e soluções digitais que impulsionam seu negócio
+              Desenvolvimento front-end moderno e soluções digitais que impulsionam seu negócio
             </p>
           </div>
 

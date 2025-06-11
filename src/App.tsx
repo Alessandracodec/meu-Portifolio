@@ -67,21 +67,14 @@ function App() {
             <div className="flex items-center">
               {/* Logo Image - substitua a URL pela sua imagem */}
               <img 
-                src="/logo-dsw.png" 
-                alt="DSW Soluções Digitais" 
-                className="h-12 w-auto scale-[1.6]"
-                onError={(e) => {
-                  // Fallback para texto se a imagem não carregar
-                  e.currentTarget.style.display = 'none';
-                  e.currentTarget.nextElementSibling!.style.display = 'block';
-                }}
-              />
-              {/* Fallback text logo */}
-              <div className="text-2xl font-bold hidden">
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
-                  DSW
-                </span>
-              </div>
+  src="/logo-dsw.png" 
+  alt="DSW Soluções Digitais" 
+  className="h-12 w-auto scale-[1.6] hidden sm:block"
+  onError={(e) => {
+    e.currentTarget.style.display = 'none';
+  }}
+/>
+
             </div>
             <div className="hidden md:flex space-x-8">
               <button onClick={() => scrollToSection('home')} className="hover:text-purple-400 transition-colors">
